@@ -1,0 +1,18 @@
+Estructura y semántica:
+
+    Utilizar encabezados HTML para las secciones principales: En lugar de utilizar divs con clases como section-1, section-2, etc., se recomienda utilizar etiquetas HTML5 como <h1>, <h2>, <h3>, etc., para definir las diferentes secciones de la página. Esto mejora la accesibilidad y la semántica del código.
+    Añadir un mapa del sitio (sitemap.xml): Un mapa del sitio ayuda a los motores de búsqueda a comprender la estructura del sitio web y facilita la indexación de las páginas.
+    Incluir metadatos descriptivos: Agregar metadatos como description y keywords en la sección <head> del HTML puede ayudar a los motores de búsqueda a mostrar la página web en los resultados de búsqueda relevantes.
+
+Contenido:
+
+    Optimizar el texto: Revisar el texto de la página para hacerlo más conciso e informativo. Eliminar frases redundantes o innecesarias y utilizar un lenguaje claro y directo.
+    Añadir imágenes con texto alternativo: Asegurarse de que todas las imágenes tengan atributos alt descriptivos para que los usuarios que utilizan lectores de pantalla puedan entender su contenido.
+    Mejorar los enlaces a redes sociales: En lugar de mostrar solo texto, utilizar iconos de las redes sociales para los enlaces en el pie de página. Esto los hace más visualmente atractivos y fáciles de identificar.
+
+Código:
+
+    M</strong>over los estilos CSS a un archivo externo: Separar los estilos CSS del código HTML y colocarlos en un archivo CSS externo (estilos.css). Esto mejora la organización y la mantenibilidad del código.
+    Utilizar clases CSS para agrupar estilos: En lugar de repetir estilos en línea, emplear clases CSS para agrupar estilos comunes y aplicarlos a diferentes elementos.
+    
+    NOTA: 60

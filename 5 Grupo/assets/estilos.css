@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{font-size: 3.5em;
+}
+h2{
+    font-size: 2.7em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.25em;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1.25em;
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0,0, 0.5);
+    box-shadow: 2px 2px 10px  rgba(0, 0,0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: rgb(100, 33, 100 );
+}
+.color-acento{
+    color: blueviolet;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.container img{
+    height: 150px;
+}
+header{
+    background-color: rgba(180, 220, 223, 0.89);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.8em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    background-color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/imagen\ 7.jpg");
+}
+#hero h1{
+    color: white;
+}
+#hero button{
+    font-size: 1.75em;
+}
+#Funeraria-Jardines-del-Amazonas{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#Funeraria-Jardines-del-Amazonas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#opiniones-de-nuestros-clientes{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#opiniones-de-nuestros-clientes .container{
+    padding: 100px 12px;
+}
+#opiniones-de-nuestros-clientes h2{
+    margin-top: 0;
+}
+#opiniones-de-nuestros-clientes p{
+    display: none;
+}
+#opiniones-de-nuestros-clientes .carta{
+    background-position: center center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#opiniones-de-nuestros-clientes .programas{
+    justify-content: center;
+}
+#opiniones-de-nuestros-clientes p{
+    display: block;
+    margin-bottom: 30px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/imagen\ 11.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/imagen\ 5.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/imagen\ 1.jpg");
+}
+#caracteristicas .container{
+    text-align: center;
+    padding: 100px 12px;
+}
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#caracteristicas ul{
+    margin: center;
+}
+#redes-sociales .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+footer{
+    background-color: rgb(230, 230, 230);
+}
+footer p{
+margin: 0;
+background-color: gainsboro;
+padding: 12px;
+
+}
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #hero h1{
+        font-size: 4em;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #opiniones-de-nuestros-clientes .programas{
+        display: flex;
+    }
+    
+}
+#Funeraria-Jardines-del-Amazonas .container{
+    display: flex;
+    justify-content: center;
+}
+#Funeraria-Jardines-del-Amazonas .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#Funeraria-Jardines-del-Amazonas h2{
+    margin: 0px;
+    margin-left: 75px;
+}
+#Funeraria-Jardines-del-Amazonas .img-container{
+    background-image: url(img/imagen\ trabajadores.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+#servicios{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#servicios .container{
+    padding: 100px 12px;
+}
+#servicios h2{
+    margin-top: 0;
+}
+#servicios p{
+    display: none;
+}
+#servicios .programas{
+    justify-content: center;
+}
+#servicios p{
+    display: block;
+    margin-bottom: 30px;
+}
+#servicios .carta-2{
+    background-position: center center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.carta-2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/capilla.jpg");
+}
+.carta-2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(img/arreglos\ de\ flores.jpg);
+}
+.carta-2:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(img/honores\ musicales.jpg);
+}
+.carta-2:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(img/traslado.jpg);
+}
+.carta-2:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(img/cremacion.jpg);
+}
+.carta-2:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(img/cementerio.jpg);
+}
+#formulario h2{
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#formulario label{
+    font-size: 17px;
+    color: #959aab;
+    margin-bottom: 15px;
+}
+#formulario input , textarea{
+    padding: 17px 14px;
+    background-color: aquamarine;
+    border: 0;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#formulario :focus{
+    outline: 1px solid green;
+}
+#formulario .btn{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0,0, 0.5);
+    box-shadow: 2px 2px 10px  rgba(0, 0,0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#formulario .btn:hover{
+    background-color: rgb(100, 33, 100 );
+}
+.form-content{
+    background: linear-gradient(
+        50deg,
+        rgba( 44,42,55,1) 50%
+        rgba( 44,42,55,0.7)
+    );
+    background-image: url(img/montaña.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 1000px;
+    border-radius: 25px ;
+}
+#formulario label{
+    color: white;
+}
+#formulario url{
+    background: linear-gradient(
+        50deg,
+        rgba( 44,42,55,1) 50%
+        rgba( 44,42,55,0.7)
+    );
+}
+#formulario  @media(max-width:991px){
+    
+    .form-content{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+
+    }
+} 
