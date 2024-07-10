@@ -1,0 +1,17 @@
+Estructura:
+
+    Semantica: Considera usar elementos semánticos como <header>, <nav>, <main>, <section>, <article>, <footer> para una mejor estructura y accesibilidad. El código actual ya utiliza algunos de estos elementos correctamente.
+    Anidar secciones: Puedes agrupar secciones relacionadas dentro de otras secciones para mejorar la organización. Por ejemplo, puedes crear una sección padre para las secciones art1, art2, art3, y art4 dentro de la sección info-prin.
+
+Contenido:
+
+    Brevedad: En la sección Historia del Framework, el texto del origen podría ser más conciso. Por ejemplo, "Surge en el año 2000 por Anders Hejsbjerg, ingeniero de software danés, como plataforma de desarrollo para Windows por Microsoft."
+    Imágenes: Asegúrate de que todas las imágenes tengan atributos alt descriptivos para usuarios que utilizan lectores de pantalla.
+    Enlaces externos: Los enlaces a las redes sociales en el pie de página se podrían mejorar usando íconos de las redes sociales en lugar de texto.
+
+Código:
+
+    Estilos CSS: Mueve los estilos en línea del código HTML a un archivo CSS externo para una mejor separación de preocupaciones y mantenibilidad.
+    Clases CSS: Utiliza clases CSS para agrupar estilos en lugar de usar muchos estilos en línea.
+    
+    NOTA: 60

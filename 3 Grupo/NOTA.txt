@@ -1,0 +1,17 @@
+Estructura:
+
+    Agrupar secciones: Se podría considerar agrupar las secciones de main y general en secciones padre comunes para mejorar la organización semántica del código. Por ejemplo, se podría crear una sección padre para las secciones de "productos" y "servicios", y otra sección padre para las secciones de "sobre nosotros" y "nuestra misión".
+    Evitar divs vacíos: Hay algunos div vacíos en el código, como el div en la sección general-2 y el div en la sección footer-content. Se podrían eliminar o agregarles contenido y darle un estilo apropiado.
+
+Contenido:
+
+    Imágenes: Las imágenes deberían tener atributos alt descriptivos para usuarios que utilizan lectores de pantalla.
+    Enlaces: Los enlaces a otras páginas del sitio web deberían tener un texto descriptivo en lugar de simplemente "#" (por ejemplo, "Inicio" en lugar de "#").
+    Texto: Se podría mejorar la legibilidad del texto aumentando el espaciado entre líneas y párrafos.
+    Llamadas a la acción: Las llamadas a la acción ("Formulario de adopción", "Disponibilidad de Productos", etc.) deberían tener un texto más claro que indique al usuario a dónde lo llevará el enlace.
+
+Código:
+
+    Atributos de imagen: Las imágenes tienen atributos width y height definidos en el código HTML. Es mejor definir estas dimensiones en CSS para mayor flexibilidad y mantenimiento.
+    
+    NOTA: MISMA PLANTILLA QUE LA DE MIGUEL LIENDO 60.

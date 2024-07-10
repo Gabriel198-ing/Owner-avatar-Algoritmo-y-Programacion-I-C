@@ -1,0 +1,18 @@
+Estructura:
+
+    Agrupar secciones: Se podría considerar agrupar las secciones de article en una sección padre común para mejorar la organización semántica del código.
+    Evitar divs vacíos: El div que envuelve las secciones no tiene contenido ni atributos. Se podría eliminar o agregarle contenido y darle un estilo apropiado.
+
+Contenido:
+
+    Imágenes: Las imágenes deberían tener atributos alt descriptivos para usuarios que utilizan lectores de pantalla.
+    Títulos: Se podría agregar un título más descriptivo a la sección de publicidad.
+    Enlaces: Los enlaces a otras páginas del sitio web deberían tener un texto descriptivo en lugar de simplemente "index.html", "ingresar.html", etc.
+
+Código:
+
+    Errores tipográficos: Hay algunos errores tipográficos en el código, como "website icon" en lugar de "favicon".
+    Cierre de etiquetas: Falta cerrar la etiqueta <article> de la segunda sección.
+    Atributos de imagen: Las imágenes tienen atributos width y height definidos en el código HTML. Es mejor definir estas dimensiones en CSS para mayor flexibilidad y mantenimiento.
+    
+    NOTA: 70
